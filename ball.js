@@ -4,7 +4,7 @@ var velocity = 3;
 var reverse = false;
 var ball = document.getElementById('ball');
 
-function moveBall(){
+setInterval(function moveBall(){
     if(!reverse){
         position = position + velocity;
         ball.style.left = position + "px";
@@ -16,6 +16,4 @@ function moveBall(){
 if(position > 1000 || position == 0){
     reverse = !reverse;
 }    
-}
-
-setInterval(moveBall, 10);
+}, 10);
