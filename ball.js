@@ -1,6 +1,6 @@
 //Set global variable that would contain the position, velocity and the html element "ball"
 var position = 0;
-var velocity = 10;
+var velocity = 3;
 var reverse = false;
 var ball = document.getElementById('ball');
 
@@ -13,9 +13,9 @@ function moveBall(){
         ball.style.left = position + "px";
     }
 
-if(position > 300 || position == 0){
+if(position > 1000 || position == 0){
     reverse = !reverse;
 }    
 }
 
-setInterval(moveBall, 100);
+setInterval(moveBall, 10);
