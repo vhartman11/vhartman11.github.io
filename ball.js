@@ -13,7 +13,7 @@ function moveBall(){
         ball.style.left = position + "px";
     }
 
-if(position > 300 || positsion == 0){
+if(position > 300 || position == 0){
     reverse = !reverse;
 }    
 }
