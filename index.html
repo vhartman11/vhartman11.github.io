@@ -1,116 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!--this code came from the bootstrap website-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Vince Hartman's Portfolio</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!--this code came from the bootstrap website-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Vince Hartman's Portfolio</title>
+    </head>
 
-    <!-- THIS IS ALL FOR THE NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-success navbar-dark py-3">
-        <div class="container">
-            <a href="#" class="navbar-brand text-dark">Vince Hartman's Portfolio</a><!-- navbar title -->
-            <button
-                class="navbar-toggler"
-                type="buttton"
-                data-bs-toggle="collapse"
-                data-bs-target="#navmenu"
-            >
-                <span class="navbar-toggler-icon"></span>
+    <body>
 
-            </button> <!-- this creates the hamburger -->
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
+        <!-- THIS IS ALL FOR THE NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark py-3">
+            <div class="container">
+                <a href="#" class="navbar-brand text-dark">Vince Hartman's Portfolio</a> <!-- navbar title -->
+                <button
+                    class="navbar-toggler"
+                    type="buttton"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
 
-                    <!-- 1st button -->
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">HOME</a>
-                    </li>
+                </button> <!-- this creates the hamburger -->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
 
-                    <!-- 2nd button -->
-                    <li class="nav-item">
-                    <a href="#me" class="nav-link">ABOUT ME</a>
-                    </li>
-                    
-                    <!-- 3rd button -->
-                    <li class="nav-item"><!--3rd button-->
-                    <a href="https://github.com/vhartman11?tab=repositories" class="nav-link">GITHUB</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                        <!-- 1st button -->
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">HOME</a>
+                        </li>
 
-    <!-- SHOWCASE/1st SECTION -->
-    <section class="bg-dark text-light p-5 text-center text-sm-start">
-        <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between">
-                <div>
-                    <h1><span class="text-warning">Welcome </span>to my Portfolio</h1>
-                    <p class="lead my-4">
-                       Hello, my name is Vince Hartman.  I am currently enrolled at MIT working on a Professional Certificate in Coding: Full Stack Development with MERN.
-                    </p>
-                </div>
-                <img class="img-fluid w-50 d-none d-sm-block" src="./Vincepic.jpg">
-            </div>
-        </div>
-    </section>
+                        <!-- 2nd button -->
+                        <li class="nav-item">
+                            <a href="resume.html" class="nav-link">ABOUT ME</a>
+                        </li>
+                        
+                        <!-- 3rd button -->
+                        <li class="nav-item">
+                            <a href="https://github.com/vhartman11?tab=repositories" class="nav-link">GITHUB</a>
+                        </li>
 
-    <!-- BIO VIDEO SECTION -->
-    <section id="learn" class="p-5">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md">
-                    <img src="" class="img-fluid" alt=""> <!-- try to embed video here -->
-                </div>
-                <div class="col-md p-5">
-                    <h2>A video for you, about me.</h2>
-                    <p class="lead">
-                        just some more text.
-                    </p>
-                    <p>
-                        and some more text here
-                    </p>
-                    <!-- <a href="#" class="btn btn-light mt-3">
-                        <i class="bi bi-chevron-right"></i>read more
-                    </a> -->
+                        <!-- 4th button -->
+                        <li class="nav-item">
+                            <a href="githubprojects.html" class="nav-link">PROJECTS</a>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </nav>
 
-    <!-- not sure what i will use this section for yet -->
-    <!-- <section id="learn" class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md p-5">
-                    <h2>learn react</h2>
-                    <p class="lead">
-                        type something here.
-                    </p>
-                    <p>
-                        something
-                    </p>
-                    <a href="#" class="btn btn-light mt-3">
-                        <i class="bi bi-chevron-right"></i>read more
-                    </a>
-                </div>
-                <div class="col-md">
-                    <img src="" class="img-fluid" alt="">
+        <!-- WELCOME/1st SECTION -->
+        <section id="welcome" class="bg-dark text-light p-5 text-center text-sm-start">
+            <div class="container">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <h1><span class="text-warning">Welcome </span>to my Portfolio</h1>
+                        <p class="lead my-4">
+                            Hello, my name is Vince Hartman.  I am currently enrolled at MIT working on a Professional Certificate in Coding: Full Stack Development with MERN.
+                        </p>
+                    </div>
+                    <img src="./homepage pics/Vincepic.jpg" class="img-fluid w-50 d-sm-block" >
                 </div>
             </div>
-        </div>
-    </section> -->
+        </section>
 
-        <!-- 3 BOXES -->
+        <!-- BIO VIDEO SECTION -->
+        <section id="bio" class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="#" class="img-fluid" alt=""> <!-- try to embed video here -->
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>A video for you, about me.</h2>
+                        <p class="lead">
+                            just some more text.
+                        </p>
+                        <p>
+                            and some more text here
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2 BOXES -->
         <section class="p-5">
             <div class="container">
                 <div class="row text-center g-4">
+
                     <div class="col-md">
                         <div class="card bg-dark text-light">
                             <div class="h1 mb-3">
@@ -120,11 +102,12 @@
                                 GitHub
                             </h3>
                             <p class="card-text">
-                                Check out my GitHub repos
+                                Check out my GitHub repos.
                             </p>
                             <a href="https://github.com/vhartman11?tab=repositories" class="btn btn-primary">Visit</a>
                         </div>
                     </div>
+
                     <div class="col-md">
                         <div class="card bg-secondary text-light">
                             <div class="h1 mb-3">
@@ -136,159 +119,92 @@
                             <p class="card-text">
                                 See a pdf of my resume.
                             </p>
-                            <a href="#" class="btn btn-dark">See Resume</a>
+                            <a href="resume.html" class="btn btn-dark">See Resume</a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
-    <!--QUESTION ACCORDION-->
-    <!--
-    <section id="questions" class="p-5">
-        <div class="container">
-            <h2 class="text-center mb-4">FAQs</h2>
-            <div class="accordion accordion-flush" id="questions"> -->
+        <!-- HOBBIES -->
+        <section id="hobbies" class="p-5 bg-primary">
+            <div class="container">
+                <h2 class="text-center text-shite">Hobbies</h2>
+                <p class="lead text-center text-white mb-5">These are some of my favorite things to do.</p>
+                <div class="row g-4">
 
-                <!-- item 1 -->
-                <!---
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#question-one">
-                            Accordion Item #1
-                    </button>
-                    </h2>
-                    <div 
-                    id="question-one"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#questions">
-                    <div class="accordion-body">Placeholder fot item 1</div>
+                    <!-- Far left box or top box -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="./homepage pics/daddy daughter fishing.jpg" class="img-fluid rounded-circle mb-3" alt="">
+                                <h3 class="card-title mb-3">Fishing</h3>
+                                <p class="card-text">I try to go out whenever I can.  I enjoy catching all species of fish.</p>
+                                <a href="fished map.html"><i class="bi bi-map text-dark mx-1" style="font-size: 2rem">
+                                </i></a>
+                                <a href="fish pics.html"><i class="bi bi-images text-dark mx-1" style="font-size: 2rem">
+                                </i></a>
+                            </div>
+                        </div>
                     </div>
-                </div> -->
 
-                <!-- item 2 -->
-                <!--
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#question-two">
-                                Accordion Item #2
-                        </button>
-                    </h2>
-                    <div 
-                        id="question-two"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#questions">
-                        <div class="accordion-body">Placeholder fot item 2</div>
+                    <!-- Middle left box or second box down -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="./homepage pics/inspection.jpg" class="img-fluid rounded-circle mb-3" alt="">
+                                <h3 class="card-title mb-3">Bee Keeping</h3>
+                                <p class="card-text">This is a newer hobby of mine.  Feel free to check out my videos.</p>
+                                <a href="https://www.youtube.com/channel/UCiW3ArGwqT4axhVvfOpr8Pw"><i class="bi bi-youtube text-dark mx-1" style="font-size: 2rem">
+                                </i></a>
+                                <a href="bee keeping pics.html"><i class="bi bi-images text-dark mx-1" style="font-size: 2rem">
+                                </i></a>
+                            </div>
+                        </div>
                     </div>
-                </div> -->
 
-                <!-- item 3 -->
-                <!--
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#question-three">
-                                Accordion Item #3
-                        </button>
-                    </h2>
-                    <div 
-                        id="question-three"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#questions">
-                        <div class="accordion-body">Placeholder fot item 3</div>
-                    </div
+                    <!-- Middle right box or 3rd box down -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="./homepage pics/tools.jpg" class="img-fluid rounded-circle mb-3" alt="">
+                                <h3 class="card-title mb-3">Woodworking</h3>
+                                <p class="card-text">I enjoy building and working with wood.  The hive picture above was one of my projects.</p>
+                                <a href="woodworking pics.html"><i class="bi bi-images text-dark mx-1" style="font-size: 2rem">
+                                </i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Far right box or 4th box down -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="./homepage pics/chick.jpg" class="img-fluid rounded-circle mb-3" alt="">
+                                <h3 class="card-title mb-3">Homesteading</h3>
+                                <p class="card-text">I enjoy trying to as self sufficient as possible.</p>
+                                <a href="homesteading pics.html"><i class="bi bi-images text-dark mx-1" style="font-size: 2rem">
+                                </i></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </section> -->
+        </section>
 
-    <!-- HOBBIES -->
-    <!-- Far left Box or top box -->
-    <section id="hobbies" class="p-5 bg-primary">
-        <div class="container">
-            <h2 class="text-center text-shite">Hobbies</h2>
-            <p class="lead text-center text-white mb-5">These are some of my favorite things to do.</p>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="./daddy daughter fishing.jpg" class="img-fluid rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Fishing</h3>
-                            <p class="card-text">I try to go out whenever I can.  I enjoy catching all species of fish.</p>
-                            <a href="fished map.html"><i class="bi bi-map text-dark mx-1">
-                            </i></a>
-                            <a href="fish pics.html"><i class="bi bi-images text-dark mx-1">
-                            </i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Middle left box or second box down -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="inspection.jpg" class="img-fluid rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Bee Keeping</h3>
-                            <p class="card-text">This is a newer hobby of mine.  Feel free to check out my videos.</p>
-                            <a href="https://www.youtube.com/channel/UCiW3ArGwqT4axhVvfOpr8Pw"><i class="bi bi-youtube text-dark mx-1">
-                            </i></a>
-                            <a href="bee keeping pics.html"><i class="bi bi-images text-dark mx-1">
-                            </i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Middle right box or 3rd box down -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="./tools.jpg" class="img-fluid rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Woodworking</h3>
-                            <p class="card-text">I enjoy building and working with wood.  The hive picture above was on my my projects.</p>
-                            <a href="woodworking pics.html"><i class="bi bi-images text-dark mx-1">
-                            </i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Far right box or 4th box down -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="./chick.jpg" class="img-fluid rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Homesteading</h3>
-                            <p class="card-text">I enjoy trying to as self sufficient as possible.</p>
-                            <a href="homesteading pics.html"><i class="bi bi-images text-dark mx-1">
-                            </i></a>
-                        </div>
-                    </div>
-                </div>
+        <!-- FOOTER -->
+        <footer class="p-5 bg-success text-white text-center position-relative">
+            <div class="container">
+                <p class="text-dark lead">Thank you for visiting.</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="text-dark bi bi-arrow-up-circle h1"></i>
+                </a>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <!-- FOOTER -->
-    <footer class="p-5 bg-success text-white text-center position-relative">
-        <div class="container">
-            <p class="text-dark lead">Thank you for visiting.</p>
-            <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                <i class="text-dark bi bi-arrow-up-circle h1"></i>
-            </a>
-        </div>
-    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!--this code came from the bootstrap website-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!--this code came from the bootstrap website-->
-
-</body>
+    </body>
 </html>
