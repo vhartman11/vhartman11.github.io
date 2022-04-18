@@ -1,14 +1,18 @@
 # vhartman11.github.io
-Project Title
+Project Title:
+My Portfolio
 
+Dscription of Project:
+Welcome to my portfolio.  My name is Vince Hartman.  I am currently enrolled at MIT working on my Professional Certificate in Coding: Full Stack Development with MERN.  In this portfolio you will find more information about me, as well as see some of my projects.
 
-Dscription of Project (must have at least 20 words)
+How to Run:
+1. Fork and clone
+2. Download a zip file
 
+Future Improvements:
+This portfolia will be ever evolving and getting upgraded as my knowledge and skills improve.  However, some imediate things I would like to improve upon:
+- Finish the photo albums
+- improve my css
 
-How to Run (this is how someone would get started running your project on their machine.)
-
-
-Future Improvements (describe what you plan to work on next)
-
-
-License Information (look up mit license)
+License Information:
+MIT License
