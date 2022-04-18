@@ -16,3 +16,6 @@ This portfolia will be ever evolving and getting upgraded as my knowledge and sk
 
 License Information:
 MIT License
+
+Author:
+Vince Hartman Currently enrolled at MIT in Full Stack Development with MERN
